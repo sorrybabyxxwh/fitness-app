@@ -5,7 +5,7 @@ import {Box, Stack, Typography} from '@mui/material';
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import ExerciseCard from "./ExerciseCard";
 
-const Exercises = ({setExercises, exercises, bodyPart}) => {
+const Exercises = ({ setExercises, exercises, bodyPart }) => {
 
   console.log(exercises)
 

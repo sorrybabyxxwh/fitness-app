@@ -26,7 +26,7 @@ const Detail = ({ exerciseDetail }) => {
     <Stack gap ='60px' sx={{ flexDirection: { lg: 'row' }, p: '20px', alignItems: 'center'}}>
         <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
         <Stack sx={{ gap: { lg: '35px', xs: '20px'}}}>
-            <Typography>{name}</Typography>
+            <Typography variant="h4" textTransform='capitalize'>{name}</Typography>
             <Typography variant="h6">
                 Exercises keep your body healthy. {name} {` `}
                 is one of the best exercises to target your {target}. It will help you improve your mood and gain energy.
